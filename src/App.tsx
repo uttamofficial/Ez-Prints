@@ -1,12 +1,11 @@
 // App.tsx (Main Application)
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './LandingPage';  // Import the Landing Page component
 import StationeryPage from './StationeryPage';  // Import the Stationery Page component
 import PrintPage from './PrintPage';
 import Navbar from './components/Navbar';  // Import the Navbar that will be used in both pages
 import CartPage from './CartPage';
-import ContactUs from './contactus';
+import ContactUs from './ContactUs';
 import LoginPage from './LoginPage.tsx';
 
 
